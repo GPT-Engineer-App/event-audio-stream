@@ -1,21 +1,21 @@
 import { Container, Text, VStack, Heading, Box, Image } from "@chakra-ui/react";
 
-const Index = () => {
+const MultiAngle = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
         <Heading as="h1" size="2xl" textAlign="center">
-          Camthis
+          Multi-Angle Streaming
         </Heading>
         <Text fontSize="xl" textAlign="center">
-          Easily stream live events from multiple angles
+          Stream live events from multiple angles effortlessly.
         </Text>
         <Box boxSize="sm">
-          <Image src="/images/landing-page.jpg" alt="Camthis Landing Page" />
+          <Image src="/images/multi-angle.jpg" alt="Multi-Angle Streaming" />
         </Box>
       </VStack>
     </Container>
   );
 };
 
-export default Index;
+export default MultiAngle;
