@@ -4,6 +4,9 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
+        <Box boxSize="sm">
+          <Image src="/images/logo.png" alt="Camthis Logo" />
+        </Box>
         <Heading as="h1" size="2xl" textAlign="center">
           Camthis
         </Heading>
